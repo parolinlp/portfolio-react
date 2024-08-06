@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Karantina:wght@300;400;700&display=swap');
+
+
+.secSobre {
+    background-image: url(src/img/GERAL.svg);
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    background-position: center; /* Centralizar a imagem */
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+.secSobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteinerSobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15rem;
+}
+
+.tituloSobre {
+    font-family: 'Karantina', serif;
+    color: #fff;
+    font-size: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+.textParagrafo {
+    font-family: 'Italiana', sans-serif;
+    width: 100rem;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+/* Mobile pequeno */
+@media (min-width: 320px) and (max-width: 374px) {
+
+    .textParagrafo {
+        font-family: 'Italiana', sans-serif;
+        width: 15rem;
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+    }
+}
+
+/* Mobile médio */
+@media (min-width: 375px) and (max-width: 424px) {
+    .textParagrafo {
+        font-family: 'Italiana', sans-serif;
+        width: 18rem;
+        font-size: 1.3rem;
+        text-align: center;
+        color: #fff;
+    }
+}
+
+/* Mobile grande */
+@media (min-width: 425px) and (max-width: 767px) {
+
+    .textParagrafo {
+        font-family: 'Italiana', sans-serif;
+        width: 18rem;
+        font-size: 1.3rem;
+        text-align: center;
+        color: #fff;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+    .textParagrafo {
+        font-family: 'Italiana', sans-serif;
+        width: 35rem;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #fff;
+    }
+
+}
+
+/* Tablets em modo paisagem, pequenos laptops */
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .textParagrafo {
+        font-family: 'Italiana', sans-serif;
+        width: 45rem;
+        font-size: 2rem;
+        text-align: center;
+        color: #fff;
+    }
+}
+
+/* Laptops */
+@media (min-width: 1280px) and (max-width: 1439px) {
+
+    .textParagrafo {
+        font-family: 'Italiana', sans-serif;
+        width: 60rem;
+        font-size: 2rem;
+        text-align: center;
+        color: #fff;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .textParagrafo {
+        font-family: 'Italiana', sans-serif;
+        width: 70rem;
+        font-size: 2.5rem;
+        text-align: center;
+        color: #fff;
+    }
+}

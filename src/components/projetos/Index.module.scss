@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Karantina:wght@300;400;700&display=swap');
+
+
+
+body {
+    --sb-track-color: #222222;
+    --sb-thumb-color: #ECFF9F;
+    --sb-size: 4px;
+  }
+  
+  body::-webkit-scrollbar {
+    width: var(--sb-size)
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 10px;
+    
+  }
+  
+  @supports not selector(::-webkit-scrollbar) {
+    body {
+      scrollbar-color: var(--sb-thumb-color)
+                       var(--sb-track-color);
+    }
+  }
+
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(src/img/Projetosbackground.svg);
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1Skills {
+    color: #fff;
+    font-size: 8rem;
+    font-family: 'Karantina';
+}
+
+.containerRolagem {
+    background-color: transparent;
+    width: 120rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Alterado para flex-start */
+    align-items: center;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    margin-right: 17rem;
+    scroll-behavior: smooth;
+}
+
+
+
+.Projeto02 {
+    background-color: #1a99c0;
+    min-width: 80rem;
+    min-height: 40rem;
+    margin: 0 1rem;
+    flex-shrink: 0;
+}
+
+.Projeto03 {
+    background-color: #c01a75;
+    min-width: 80rem;
+    min-height: 40rem;
+    margin: 0 1rem;
+    flex-shrink: 0;
+}
+
+.Projeto04 {
+    background-color: #78c01a;
+    min-width: 80rem;
+    min-height: 40rem;
+    margin: 0 1rem;
+    flex-shrink: 0;
+}
+
+.Projeto05 {
+    background-color: #c01a1a;
+    min-width: 80rem;
+    min-height: 40rem;
+    margin: 0 1rem;
+    flex-shrink: 0;
+}
+
+.imgContainer {
+    background-color: #7e7e7e;
+    width: 40rem;
+    height: 30rem;
+}
+
+.h1ContainerProjeto {
+    color: #fff;
+    font-size: 6rem;
+    font-family: 'Karantina';
+}
+
+.pContainerProjeto {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Italiana';
+    margin-bottom: 2rem;
+    width: 500px;
+}
+
+.containerIcons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+    gap: 1rem;
+}
+
+.buttonsSobre {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #706908;
+    color: white;
+    font-family: 'Karantina';
+    font-size: 2.5rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.Projeto01 {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: 90rem;
+    min-height: 40rem;
+    margin: 0 1rem;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.imgContainer01 {
+    background-image: url(/src/img/imgProjetos/Pizzamania.PNG);
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    width: 700px;
+    height: 500px;
+}
+
+.Projeto02 {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: 90rem;
+    min-height: 40rem;
+    margin: 0 1rem;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.imgContainer02 {
+    background-image: url(/src/img/imgProjetos/IMC.PNG);
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    width: 650px;
+    height: 500px;
+}
+
+.Projeto03 {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: 90rem;
+    min-height: 40rem;
+    margin: 0 1rem;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.imgContainer03 {
+    background-image: url(/src/img/imgProjetos/TODO.PNG);
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    width: 650px;
+    height: 500px;
+}
+
+.Projeto04 {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: 90rem;
+    min-height: 40rem;
+    margin: 0 1rem;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.imgContainer04 {
+    background-image: url(/src/img/imgProjetos/portfolio.PNG);
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    width: 650px;
+    height: 500px;
+}
+
+.Projeto05 {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: 90rem;
+    min-height: 40rem;
+    margin: 0 1rem;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.imgContainer05 {
+    background-image: url(/src/img/imgProjetos/Relogio.PNG);
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    width: 650px;
+    height: 500px;
+}
+
+.Projeto06 {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: 90rem;
+    min-height: 40rem;
+    margin: 0 1rem;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.imgContainer06 {
+    background-image: url(/src/img/imgProjetos/login.PNG);
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    width: 650px;
+    height: 500px;
+}
+
+.Projeto07 {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    min-width: 90rem;
+    min-height: 40rem;
+    margin: 0 1rem;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.imgContainer07 {
+    background-image: url(/src/img/imgProjetos/Formulario02.PNG);
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    width: 650px;
+    height: 500px;
+}
+
+
+/* Mobile pequeno */
+@media (min-width: 320px) and (max-width: 374px) {
+    .container {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(src/img/Projetosbackground.svg);
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h1Skills {
+        color: #fff;
+        font-size: 5rem;
+        font-family: 'Karantina';
+    }
+}
+
+/* Mobile médio */
+@media (min-width: 375px) and (max-width: 424px) {
+    .container {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(src/img/Projetosbackground.svg);
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h1Skills {
+        color: #fff;
+        font-size: 5rem;
+        font-family: 'Karantina';
+    }
+}
+
+/* Mobile grande */
+@media (min-width: 425px) and (max-width: 767px) {
+    .container {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(src/img/Projetosbackground.svg);
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerRolagem {
+        background-color: transparent;
+        width: 120rem;
+        height: 50rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; /* Alterado para flex-start */
+        align-items: center;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        margin-right: 17rem;
+        scroll-behavior: smooth;
+    }
+
+    /*PROJETOS*/
+
+    .Projeto01 {
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 10rem;
+        height: 40rem;
+        margin: 0 1rem;
+        flex-shrink: 0;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+    
+    .imgContainer01 {
+        background-image: url(/src/img/imgProjetos/Pizzamania.PNG);
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-size: cover;
+        width: 700px;
+        height: 500px;
+    }
+    .h1ContainerProjeto {
+        color: #fff;
+        font-size: 6rem;
+        font-family: 'Karantina';
+    }
+    
+    .pContainerProjeto {
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: 'Italiana';
+        margin-bottom: 2rem;
+        width: 500px;
+    }
+    .h1Skills {
+        color: #fff;
+        font-size: 5rem;
+        font-family: 'Karantina';
+    }
+}
+
+
+
+
+

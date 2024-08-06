@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Karantina:wght@300;400;700&display=swap');
+
+
+.container {
+    background-image: url(src/img/SKILLS.svg);
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    background-position: center; /* Centralizar a imagem */
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+.mainContainerIcons {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerIcon01 {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 3rem;
+}
+
+.containerIcon02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.h1Skills {
+    font-family: 'Karantina', sans-serif;
+    font-size: 6rem;
+}
+
+.pSkills {
+    font-family: 'Italiana', sans-serif;
+    font-size: 3rem;
+}
+
+/* Mobile pequeno */
+@media (min-width: 320px) and (max-width: 374px) {
+    .container {
+        background-image: url(src/img/SKILLS.svg);
+        background-repeat: no-repeat; /* Não repetir a imagem */
+        background-position: center; /* Centralizar a imagem */
+        background-size: cover;
+        height: 380vh;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h1Skills {
+        font-family: 'Karantina', sans-serif;
+        font-size: 3rem;
+    }
+    .pSkills {
+        font-family: 'Italiana', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .containerIcon01 {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 3rem;
+    }
+}
+
+/* Mobile médio */
+@media (min-width: 375px) and (max-width: 424px) {
+    .container {
+        background-image: url(src/img/SKILLS.svg);
+        background-repeat: no-repeat; /* Não repetir a imagem */
+        background-position: center; /* Centralizar a imagem */
+        background-size: cover;
+        height: 380vh;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h1Skills {
+        font-family: 'Karantina', sans-serif;
+        font-size: 3rem;
+    }
+    .pSkills {
+        font-family: 'Italiana', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .containerIcon01 {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 3rem;
+    }
+}
+
+/* Mobile grande */
+@media (min-width: 425px) and (max-width: 767px) {
+    .container {
+        background-image: url(src/img/SKILLS.svg);
+        background-repeat: no-repeat; /* Não repetir a imagem */
+        background-position: center; /* Centralizar a imagem */
+        background-size: cover;
+        height: 380vh;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h1Skills {
+        font-family: 'Karantina', sans-serif;
+        font-size: 3rem;
+    }
+    .pSkills {
+        font-family: 'Italiana', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .containerIcon01 {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 3rem;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        background-image: url(src/img/SKILLS.svg);
+        background-repeat: no-repeat; /* Não repetir a imagem */
+        background-position: center; /* Centralizar a imagem */
+        background-size: cover;
+        height: 390vh;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h1Skills {
+        font-family: 'Karantina', sans-serif;
+        font-size: 7rem;
+    }
+    .pSkills {
+        font-family: 'Italiana', sans-serif;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .containerIcon01 {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 3rem;
+    }
+}
+
+/* Tablets em modo paisagem, pequenos laptops */
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .container {
+        background-image: url(src/img/SKILLS.svg);
+        background-repeat: no-repeat; /* Não repetir a imagem */
+        background-position: center; /* Centralizar a imagem */
+        background-size: cover;
+        height: 121vh;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h1Skills {
+        font-family: 'Karantina', sans-serif;
+        font-size: 7rem;
+    }
+    .pSkills {
+        font-family: 'Italiana', sans-serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .containerIcon01 {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+        gap: 1rem;
+    }
+}
+
+/* Laptops */
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .container {
+        background-image: url(src/img/SKILLS.svg);
+        background-repeat: no-repeat; /* Não repetir a imagem */
+        background-position: center; /* Centralizar a imagem */
+        background-size: cover;
+        height: 122vh;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h1Skills {
+        font-family: 'Karantina', sans-serif;
+        font-size: 7rem;
+    }
+    .pSkills {
+        font-family: 'Italiana', sans-serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .containerIcon01 {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+        gap: 1rem;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .container {
+        background-image: url(src/img/SKILLS.svg);
+        background-repeat: no-repeat; /* Não repetir a imagem */
+        background-position: center; /* Centralizar a imagem */
+        background-size: cover;
+        height: 122vh;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .h1Skills {
+        font-family: 'Karantina', sans-serif;
+        font-size: 7rem;
+    }
+    .pSkills {
+        font-family: 'Italiana', sans-serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .containerIcon01 {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+        gap: 1rem;
+    }
+}

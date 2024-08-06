@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Karantina:wght@300;400;700&display=swap');
+
+.secContainer {
+    display: flex;
+    flex-direction: column;
+    background-image: url(src/img/GERAL.svg);
+    background-repeat: no-repeat; /* Não repetir a imagem */
+  background-position: center; /* Centralizar a imagem */
+  background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    border-bottom: 1px solid #2d2d2d;
+    height: 7rem;
+    width: 100%;
+    position: fixed
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15rem;
+    margin-right: 18rem;
+}
+
+.nav li, a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 8px;
+    border-bottom: 1px solid transparent;
+
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.nav a:hover {
+    border-bottom:1px solid #ECFF9F;
+    transition: 0.3s;
+}
+
+.logo {
+    margin:0 0 0 2rem ;
+}
+
+
+
+
+//CONTENT
+
+.contentHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.textsHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 0 4rem 5rem;
+}
+
+
+.tituloHome {
+    font-family: "Karantina", system-ui;
+    color: #fff;
+    font-size: 5rem;
+    padding: 0 0 1.5rem 0;
+}
+
+.spanP {
+    color: #ECFF9F;
+}
+
+.textoHome {
+    font-size: 2.5rem;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+/* Mobile pequeno */
+@media (min-width: 320px) and (max-width: 374px) {
+    .contentHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .textsHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .tituloHome {
+        font-family: "Karantina", system-ui;
+        color: #fff;
+        font-size: 2rem;
+        padding: 0 0 1.5rem 0;
+        text-align: center;
+    }
+    .textoHome {
+        font-size: 1.3rem;
+        text-align: center;
+        font-family: "Italiana", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff;
+    }
+}
+
+/* Mobile médio */
+@media (min-width: 375px) and (max-width: 424px) {
+    .contentHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .textsHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .tituloHome {
+        font-family: "Karantina", system-ui;
+        color: #fff;
+        font-size: 2rem;
+        padding: 0 0 1.5rem 0;
+        text-align: center;
+    }
+    .textoHome {
+        font-size: 1.3rem;
+        text-align: center;
+        font-family: "Italiana", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff;
+    }
+}
+
+/* Mobile grande */
+@media (min-width: 425px) and (max-width: 767px) {
+    .contentHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .textsHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .tituloHome {
+        font-family: "Karantina", system-ui;
+        color: #fff;
+        font-size: 2.5rem;
+        padding: 0 0 1.5rem 0;
+        text-align: center;
+    }
+    .textoHome {
+        font-size: 1.3rem;
+        text-align: center;
+        font-family: "Italiana", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contentHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .textsHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .tituloHome {
+        font-family: "Karantina", system-ui;
+        color: #fff;
+        font-size: 4.5rem;
+        padding: 0 0 1.5rem 0;
+        text-align: center;
+    }
+    .textoHome {
+        font-size: 1.8rem;
+        text-align: center;
+        font-family: "Italiana", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff;
+    }
+}
+
+/* Tablets em modo paisagem, pequenos laptops */
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .contentHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .textsHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .tituloHome {
+        font-family: "Karantina", system-ui;
+        color: #fff;
+        font-size: 5rem;
+        padding: 0 0 1.5rem 0;
+        text-align: center;
+    }
+    .textoHome {
+        font-size: 2rem;
+        text-align: center;
+        font-family: "Italiana", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff;
+    }
+}
+
+
+
