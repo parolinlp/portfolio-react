@@ -6,7 +6,7 @@ import HtmlCard from '../icons/HTMLCARD'
 import JsCard from '../icons/JSCARD'
 import ReactCard from '../icons/REACT'
 import SassCard from '../icons/SASSICON'
-import styles from './Index.module.scss'
+import styles from './Index.module.css'
 
 
 export default function Skills() {

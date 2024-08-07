@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Index.module.scss';
+import styles from './Index.module.css';
 
 export default function Home() {
   return (

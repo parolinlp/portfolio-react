@@ -1,4 +1,4 @@
-import styles from './Index.module.scss'
+import styles from './Index.module.css'
 
 export default function Figma() {
     return (  

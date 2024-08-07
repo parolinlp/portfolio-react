@@ -1,4 +1,4 @@
-import styles from './Index.module.scss'
+import styles from './Index.module.css'
 import Css from '../tags/CSS/index'
 import Html from '../tags/HTML/index'
 import Js from '../tags/JS/index'
