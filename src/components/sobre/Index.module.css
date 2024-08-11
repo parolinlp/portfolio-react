@@ -4,6 +4,7 @@
 
 .secSobre {
     background-image: url(src/img/GERAL.svg);
+    background-color: #222;
     background-repeat: no-repeat; /* Não repetir a imagem */
     background-position: center; /* Centralizar a imagem */
     background-size: cover;

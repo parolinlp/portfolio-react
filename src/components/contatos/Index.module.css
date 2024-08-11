@@ -6,6 +6,7 @@
     background-image: url(src/img/SKILLS.svg);
     background-repeat: no-repeat; 
     background-position: center; 
+    background-color: #222;
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -60,6 +61,10 @@
     align-items: center;
     gap: 20px;
     border-radius: 10px;
+}
+
+.containerContact p {
+    color: #f2fdc8;
 }
 
 /* Mobile pequeno */

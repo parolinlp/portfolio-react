@@ -6,7 +6,8 @@ export default function Home() {
     <section className={styles.secContainer} id="home">
       <div className={styles.header}>
         <a className={styles.logo} href="#home">
-          <img src="src/img/LOGO.svg" alt="Logo Header" />
+          <h1>AN</h1> 
+          <h2 className={styles.h2Logo}>PA</h2>
         </a>
         <ul className={styles.nav}>
           <li className={styles.bntNav} id={styles.home}>

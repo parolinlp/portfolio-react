@@ -1,11 +1,12 @@
 import styles from './Index.module.css'
+import logo from '../../../img/imgCard/icons8-figma-100.png'
 
 export default function FigmaCard() {
     return (
         <>
         <div className={styles.mainContainer}>
             <div className={styles.container}>
-                <img className={styles.imgIcon} src="src/img/VectorFIGMAICON.svg" alt="" />
+                <img className={styles.imgIcon} src={logo} alt="" />
                 <div className={styles.containerText}>
                     <h1 className={styles.h1icon}>FIGMA</h1>
                     <p className={styles.pIcon}>Completo</p>

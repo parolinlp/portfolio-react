@@ -1,6 +1,8 @@
 import styles from './Index.module.css'
-
-
+import logoGit from '../../img/imgCard/icons8-github-100.png'
+import logoWha from '../../img/imgCard/icons8-whatsapp-100.png'
+import logoLink from '../../img/imgCard/icons8-linkedin-100.png'
+import logoGmail from '../../img/imgCard/icons8-gmail-100.png'
 
 export default function Contato() {
     return ( 
@@ -31,10 +33,10 @@ export default function Contato() {
 
 
                 <div className={styles.containerLinks}>
-                    <a href="https://mail.google.com" target='_Blank'><img src="src\img\imgContatos\gmail.svg" alt="" /></a>
-                    <a href="https://wa.me/5511960411261" target='_Blank'><img src="src\img\imgContatos\whats.svg" alt="" /></a>
-                    <a href="https://github.com/parolinlp" target='_Blank'><img src="src\img\imgContatos\github.svg" alt="" /></a>
-                    <a href="https://www.linkedin.com/in/andr%C3%A9-parolin-271601223/" target='_Blank'><img src="src\img\imgContatos\linkedin.svg" alt="" /></a>
+                    <a href="https://mail.google.com" target='_Blank'><img src={logoGmail} alt="" /></a>
+                    <a href="https://wa.me/5511960411261" target='_Blank'><img src={logoWha} alt="" /></a>
+                    <a href="https://github.com/parolinlp" target='_Blank'><img src={logoGit} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/andr%C3%A9-parolin-271601223/" target='_Blank'><img src={logoLink} alt="" /></a>
                 </div>
             </div>
 
